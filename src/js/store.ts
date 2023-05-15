@@ -37,7 +37,6 @@ const projectsList = [
     {
         name: "PapilloteBot",
         id: "papillote-bot",
-        desc: "Bot multifonction pour Discord.",
         techs: ["JavaScript", "NodeJS", "Firebase"],
         images: {
             original: papilloteBotImg,
@@ -54,7 +53,6 @@ const projectsList = [
     {
         name: "Painting Mod",
         id: "painting-mod",
-        desc: "Mod pour Minecraft permettant de colorer des blocs pour lesquels ce n'est pas possible à la base.",
         techs: ["Java"],
         images: {
             original: paintingModImg,
@@ -71,8 +69,6 @@ const projectsList = [
     {
         name: "Fabric <-> Discord Link",
         id: "fdlink",
-        desc: "Mod pour Minecraft permettant de connecter le service de messagerie instantanée d'un\
-        serveur Minecraft à un salon d'un serveur Discord, hautement configurable.",
         techs: ["Java"],
         images: {
             original: fdlinkImg,
@@ -89,8 +85,6 @@ const projectsList = [
     {
         name: "Server Translations API",
         id: "server-translations-api",
-        desc: "Mod et API pour Minecraft permettant de gérer la traduction de texte côté serveur à la\
-        place du client.",
         techs: ["Java"],
         images: {
             original: serverTranslationsImg,
@@ -107,8 +101,6 @@ const projectsList = [
     {
         name: "rusty-craft",
         id: "rusty-craft",
-        desc: "Lanceur pour le jeu Minecraft, écrit complètement en Rust, avec interface utilisateur dans\
-        le terminal.",
         techs: ["Rust"],
         images: {
             original: rustyCraftImg,
@@ -125,8 +117,6 @@ const projectsList = [
     {
         name: "Legacy Fabric",
         id: "legacy-fabric",
-        desc: "Projet visant à faire fonctionner le ModLoader FabricLoader sur des versions du jeu\
-        Minecraft non supportées par celui-ci.",
         techs: ["Java", "Python", "Gradle", "Groovy", "Javalin", "Swing"],
         images: {
             original: legacyFabricImg,
@@ -143,7 +133,6 @@ const projectsList = [
     {
         name: "Nucleoid",
         id: "nucleoid",
-        desc: "API et Serveur Open Sources pour créer des mini-jeux pour les versions les plus récentes de Minecraft.",
         techs: ["Java", "Rust"],
         images: {
             original: nucleoidImg,
@@ -160,7 +149,6 @@ const projectsList = [
     {
         name: "MultiTeamLauncher",
         id: "multiteam-launcher",
-        desc: "À écrire...",
         techs: ["HTML/CSS", "JavaScript", "TypeScript", "ElectronJS", "VueJS"],
         images: {
             original: multiteamImg,
@@ -177,7 +165,6 @@ const projectsList = [
     {
         name: "GardenArsenal",
         id: "garden-arsenal",
-        desc: "À écrire...",
         techs: ["Java"],
         images: {
             original: gardenArsenalImg,
@@ -318,7 +305,6 @@ export interface ProjectData {
     name: string,
     id: string,
     techs: string[],
-    desc: string,
     images: {
         original: string,
         avif: string,
