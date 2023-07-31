@@ -10,13 +10,13 @@ project-techs=Technologies: {$techs}
 project-role=Role: {$role}
 project-today={{DATETIME($begin, year: "numeric")}} - to this day
 
-project-papillote-bot-desc=Bot multifonction pour Discord.
-project-painting-mod-desc=Mod pour Minecraft permettant de colorer des blocs pour lesquels ce n'est pas possible à la base.
-project-fdlink-desc=Mod pour Minecraft permettant de connecter le service de messagerie instantanée d'un serveur Minecraft à un salon d'un serveur Discord, hautement configurable.
-project-server-translations-api-desc=Mod et API pour Minecraft permettant de gérer la traduction de texte côté serveur à la place du client.
-project-rusty-craft-desc=Lanceur pour le jeu Minecraft, écrit complètement en Rust, avec interface utilisateur dans le terminal.
-project-legacy-fabric-desc=Projet visant à faire fonctionner le ModLoader FabricLoader sur des versions du jeu Minecraft non supportées par celui-ci.
-project-nucleoid-desc=API et Serveur Open Sources pour créer des mini-jeux pour les versions les plus récentes de Minecraft.
+project-papillote-bot-desc=Multi-usage bot for Discord.
+project-painting-mod-desc=Minecraft Mod allowing to color blocks that aren't colorable in the base game, using paint.
+project-fdlink-desc=Minecraft Mod allowing to connect a Minecraft server chat to a Discord channel, high customizable.
+project-server-translations-api-desc=Minecraft Mod and API allowing the server to handle translations instead of client only.
+project-rusty-craft-desc=Minecraft Launcher, written fully in rust, with terminal user interface.
+project-legacy-fabric-desc=Projet to make the FabricLoader ModLoader usable on Minecraft versions not official supported by it.
+project-nucleoid-desc=Open Source Server and API to create minigames on latest versions of Minecraft.
 project-multiteam-launcher-desc=todo
 project-garden-arsenal-desc=todo
 
