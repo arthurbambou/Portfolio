@@ -416,7 +416,7 @@ packages:
       '@vue/shared': 3.3.2
       estree-walker: 2.0.2
       magic-string: 0.30.0
-      postcss: 8.4.23
+      postcss: 8.4.31
       source-map-js: 1.0.2
 
   /@vue/compiler-ssr@3.3.2:
@@ -734,7 +734,7 @@ packages:
       '@fluent/sequence': 0.7.0(@fluent/bundle@0.18.0)
       cached-iterable: 0.3.0
       vue: 3.3.2
-      vue-demi: 0.14.5(vue@3.3.2)
+      vue-demi: 0.14.6(vue@3.3.2)
     dev: false
 
   /for-each@0.3.3:
@@ -1163,8 +1163,8 @@ packages:
       vue-demi: 0.14.1(vue@3.3.2)
     dev: false
 
-  /postcss@8.4.23:
-    resolution: {integrity: sha512-bQ3qMcpF6A/YjR55xtoTr0jGOlnPOKAIMdOWiv0EIT6HVPEaJiJB4NLljSbiHoC2RX7DN5Uvjtpbg1NPdwv1oA==}
+  /postcss@8.4.31:
+    resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.6
@@ -1427,7 +1427,7 @@ packages:
     dependencies:
       '@types/node': 18.16.8
       esbuild: 0.17.19
-      postcss: 8.4.23
+      postcss: 8.4.31
       rollup: 3.21.6
     optionalDependencies:
       fsevents: 2.3.2
@@ -1448,8 +1448,8 @@ packages:
       vue: 3.3.2
     dev: false
 
-  /vue-demi@0.14.5(vue@3.3.2):
-    resolution: {integrity: sha512-o9NUVpl/YlsGJ7t+xuqJKx8EBGf1quRhCiT6D/J0pfwmk9zUwYkC7yrF4SZCe6fETvSM3UNL2edcbYrSyc4QHA==}
+  /vue-demi@0.14.6(vue@3.3.2):
+    resolution: {integrity: sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
